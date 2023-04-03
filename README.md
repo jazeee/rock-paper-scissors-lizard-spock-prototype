@@ -15,3 +15,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 * `npm run lint:all`
 * `npm run tscheck`
 * `npm test` (Need more tests!)
+
+## Data Model
+
+* Using [diagrams.net](https://diagrams.net), import [This file](./docs/data-model.xml)
