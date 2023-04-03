@@ -49,7 +49,7 @@
     "eject": "react-scripts eject",
     "lint": "eslint",
     "lint:all": "eslint src/**/*.{ts,tsx}",
-    "tscheck": "tsc --noEmit"
+    "tscheck": "tsc --noEmit --incremental false"
   },
   "browserslist": {
     "production": [
