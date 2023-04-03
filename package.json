@@ -1,5 +1,6 @@
 {
-  "name": "billion-to-one",
+  "name": "rock-paper-scissors-lizard-spock-prototype",
+  "description": "Game interview source code",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
