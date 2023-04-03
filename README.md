@@ -22,5 +22,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Screenshots
 
-~[Mobile Screenshot](./docs/mobile.png)
-~[Desktop Screenshot](./docs/desktop.png)
+![Mobile Screenshot](./docs/mobile.png)
+![Desktop Screenshot](./docs/desktop.png)
