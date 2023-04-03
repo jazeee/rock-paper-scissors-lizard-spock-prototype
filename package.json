@@ -4,30 +4,50 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "11.10.6",
+    "@emotion/styled": "11.10.6",
+    "@fontsource/roboto": "4.5.8",
+    "@mui/icons-material": "5.11.11",
+    "@mui/material": "5.11.15",
+    "@types/react-helmet-async": "1.0.3",
+    "@types/react-router-dom": "5.3.3",
+    "constate": "3.3.2",
+    "lodash": "4.17.21",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-helmet-async": "1.3.0",
+    "react-router-dom": "6.10.0"
+  },
+  "devDependencies": {
     "@testing-library/jest-dom": "5.16.5",
-    "@testing-library/react": "13.4.0",
-    "@testing-library/user-event": "13.5.0",
-    "@types/jest": "27.5.2",
-    "@types/node": "16.18.23",
+    "@testing-library/react": "14.0.0",
+    "@testing-library/user-event": "14.4.3",
+    "@types/jest": "29.5.0",
+    "@types/lodash": "4.14.192",
+    "@types/node": "18.15.11",
     "@types/react": "18.0.32",
     "@types/react-dom": "18.0.11",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "@typescript-eslint/eslint-plugin": "5.57.1",
+    "@typescript-eslint/parser": "5.57.1",
+    "eslint": "8.37.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-prettier": "4.2.1",
+    "eslint-plugin-react": "7.32.2",
+    "prettier": "2.8.7",
     "react-scripts": "5.0.1",
-    "typescript": "4.9.5",
-    "web-vitals": "2.1.4"
+    "typescript": "4.9.5"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "DISABLE_ESLINT_PLUGIN=true react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+    "test": "DISABLE_ESLINT_PLUGIN=true react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint",
+    "lint:all": "eslint src/**/*.{ts,tsx}",
+    "tscheck": "tsc --noEmit"
   },
   "browserslist": {
     "production": [
