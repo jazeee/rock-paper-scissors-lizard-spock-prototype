@@ -30,8 +30,7 @@
     "noFallthroughCasesInSwitch": true
   },
   "include": [
-    "./src/**/*",
-    "src/images.d.ts"
+    "./src/**/*"
   ],
   "exclude": [
     "node_modules"
